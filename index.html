@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AK 2048</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">AK 2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+    <p class="game-intro">HÜLOOOĞĞĞ</p>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">EVT BBCM</a>
+          <a class="retry-button">BBCM ANLMDM?</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+	</div>
+
+    <p class="game-explanation">
+      <strong class="important">Nasıl oynanır?</strong>
+	</p>
+	<p>
+	  <strong>Yön tuşları</strong>nı kullanarak <strong>aynı</strong> kardoları birleştir, <strong>BÜYÜK BAŞGAN</strong>'a ulaş.
+    </p>
+    <hr>
+    <p>
+    <strong>2048</strong> <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli</a>'nin ürettiği bir oyundur.
+	</p>
+	<p>
+	<strong>AK</strong>laştırmayı gerçekleştiren: <a href="https://github.com/onatm" target="_blank">Onat Yiğit Mercan</a>.
+    </p>
+	<p>
+	<a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024</a> ve konsept olarak benzeri <a href="http://asherv.com/threes/" target="_blank">Threes</a> oyunlarından yola çıkılmıştır.
+    </p>
+  </div>
+
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_score_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>

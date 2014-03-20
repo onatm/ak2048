@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'search',
+1 verbose cli   '/.*' ]
+2 info using npm@1.2.11
+3 info using node@v0.8.20
+4 verbose url raw /-/all/since?stale=update_after&startkey=1393728598794
+5 verbose url resolving [ 'https://registry.npmjs.org/',
+5 verbose url resolving   './-/all/since?stale=update_after&startkey=1393728598794' ]
+6 verbose url resolved https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1393728598794
+7 info trying registry request attempt 1 at 18:27:29
+8 http GET https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1393728598794
+9 http 200 https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1393728598794
+10 error Error: write EPIPE
+10 error     at errnoException (net.js:770:11)
+10 error     at Object.afterWrite (net.js:594:19)
+11 error If you need help, you may report this log at:
+11 error     <http://github.com/isaacs/npm/issues>
+11 error or email it to:
+11 error     <npm-@googlegroups.com>
+12 error System Windows_NT 6.2.9200
+13 error command "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "search" "/.*"
+14 error cwd D:\Projects\ak2048\style
+15 error node -v v0.8.20
+16 error npm -v 1.2.11
+17 error syscall write
+18 error code EPIPE
+19 error errno EPIPE
+20 verbose exit [ 1, true ]

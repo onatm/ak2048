@@ -1,4 +1,11 @@
-ak2048
-======
+# AK 2048
+Bir [2048](https://github.com/gabrielecirulli/2048) klonudur.
 
-AK clone of 2048 (https://github.com/gabrielecirulli/2048)
+[Buradan oyna!](http://onat.github.io/ak2048/)
+
+### Screenshot
+
+[![Screenshot](http://i.imgur.com/aNrYl1n.png)](http://i.imgur.com/aNrYl1n.png)
+
+## Lisans
+AK 2048 [MIT lisansı] ile lisanslanmıştır. (https://github.com/onatm/ak2048/blob/master/LICENSE)
