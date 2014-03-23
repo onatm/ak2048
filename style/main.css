@@ -1,4 +1,4 @@
-@import url(fonts/clear-sans.css);
+@import url(fonts/pt-sans.css);
 html, body {
   margin: 0;
   padding: 0;
@@ -9,6 +9,10 @@ html, body {
 
 body {
   margin: 80px 0; }
+
+a img {
+  border-style: none;
+}
 
 .heading:after {
   content: "";
@@ -476,7 +480,8 @@ hr {
   animation-fill-mode: backwards; }
 
 .game-intro {
-  margin-bottom: 0; }
+  float: left;
+  margin-bottom: 0;  }
 
 .game-explanation {
   margin-top: 50px; }
