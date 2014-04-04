@@ -8,4 +8,4 @@ Bir [2048](https://github.com/gabrielecirulli/2048) klonudur.
 [![Screenshot](http://i.imgur.com/aNrYl1n.png)](http://i.imgur.com/aNrYl1n.png)
 
 ## Lisans
-AK 2048 [MIT lisansı] ile lisanslanmıştır. (https://github.com/onatm/ak2048/blob/master/LICENSE)
+AK 2048 [MIT lisansı](https://github.com/onatm/ak2048/blob/master/LICENSE) ile lisanslanmıştır.
